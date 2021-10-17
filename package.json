@@ -1,8 +1,15 @@
 {
   "name": "datocms-plugin-s3-media-lib",
-  "homepage": "https://github.com/YOUR-USER/datocms-plugin-s3-media-lib",
+  "homepage": "https://github.com/bebejane/datocms-plugin-s3-media-lib",
   "version": "0.0.1",
   "description": "View S3 media files",
+  "keywords": [
+    "datocms",
+    "datocms-plugin",
+    "field-editor",
+    "json-field",
+    "s3"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --port 5000",
@@ -12,13 +19,6 @@
     "lint": "eslint \"./src/*.{js,jsx}\"",
     "test": "echo 1"
   },
-  "keywords": [
-    "datocms",
-    "datocms-plugin",
-    "field-editor",
-    "json-field",
-    "s3"
-  ],
   "files": [
     "dist",
     "docs"
@@ -26,14 +26,12 @@
   "author": "Bebe Jane <bebejanedev@gmail.com>",
   "license": "ISC",
   "datoCmsPlugin": {
-    "title": "S3 Media Lib",
+    "title": "S3 Media Library",
     "previewImage": "docs/preview.gif",
     "coverImage": "docs/cover.png",
     "entryPoint": "dist/index.html",
     "pluginType": "field_editor",
-    "fieldTypes": [
-      "json"
-    ],
+    "fieldTypes": ["json"],
     "parameters": {
       "global": [
         {
