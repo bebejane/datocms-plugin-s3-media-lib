@@ -1,0 +1,19 @@
+$thumb-size: 50px;
+.container
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white
+  padding: 24px
+.link
+  flex: 0 0 $thumb-size;
+  margin-right: 10px;
+  &:last-child
+    margin-right: 0px;
+.thumb
+  width: $thumb-size;
+  height: $thumb-size;
+  border: 1px solid rgba(0,0,0,0.3);
+  &:hover
+    border: 1px solid rgba(0,0,0,1);
+    cursor: pointer;
