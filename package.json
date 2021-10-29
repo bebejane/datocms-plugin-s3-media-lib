@@ -31,7 +31,7 @@
     "coverImage": "docs/cover.png",
     "entryPoint": "dist/index.html",
     "pluginType": "field_editor",
-    "fieldTypes": ["json"],
+    "fieldTypes": ["json", "string"],
     "parameters": {
       "global": [
         {
