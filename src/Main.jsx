@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './style.sass';
-
+/*
 const Main = ({ fieldValue }) => {
   const images = fieldValue || [{ url: 'https://www.datocms-assets.com/55629/1632414400-4.jpg' }, { url: 'https://www.datocms-assets.com/55629/1632414374-1.jpg' }];
   return (
@@ -16,7 +16,16 @@ const Main = ({ fieldValue }) => {
     </div>
   );
 };
-
+*/
+const Main = ({ fieldValue }) => {
+  // const images = fieldValue || [{ url: 'https://www.datocms-assets.com/55629/1632414400-4.jpg' }, { url: 'https://www.datocms-assets.com/55629/1632414374-1.jpg' }];
+  console.log(fieldValue);
+  return (
+    <div className="container">
+      <input type="text" />
+    </div>
+  );
+};
 Main.propTypes = {
   fieldValue: PropTypes.bool.isRequired,
 };
