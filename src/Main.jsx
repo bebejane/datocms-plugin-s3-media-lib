@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import './style.sass';
-
 
 const Main = ({ fieldValue }) => {
   const images = fieldValue || [{ url: 'https://www.datocms-assets.com/55629/1632414400-4.jpg' }, { url: 'https://www.datocms-assets.com/55629/1632414374-1.jpg' }];
