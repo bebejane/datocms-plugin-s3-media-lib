@@ -4,11 +4,9 @@ import PropTypes from 'prop-types';
 import Main from './Main';
 
 const Root = ({ plugin }) => {
-  const images = [{ url: 'https://i.imgur.com/sKqwP0o.jpeg' }, { url: 'https://i.imgur.com/mwir12i.jpeg' }];
-  console.log(images);
   const [state, setState] = useState({
     developmentMode: plugin.parameters.global.developmentMode,
-    fieldValue: plugin.getFieldValue(plugin.fieldPath) || images,
+    fieldValue: plugin.getFieldValue(plugin.fieldPath),
   });
 
   useEffect(() => {
