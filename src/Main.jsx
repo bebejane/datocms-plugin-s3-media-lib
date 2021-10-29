@@ -22,7 +22,7 @@ const Main = ({ fieldValue }) => {
   console.log(fieldValue);
   return (
     <div className="container">
-      <input type="text" />
+      <input type="text" value="hej" />
     </div>
   );
 };
